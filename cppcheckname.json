@@ -1,0 +1,17 @@
+{
+	"var": "m|n|x|y|z|i|j|k|(((b|c|us|s|n|ul|l|f|d|e|sz|map|p|arr|vec|list)[A-Z][a-zA-Z0-9_]*$)|([A-Z][a-zA-Z0-9_]*Obj$))",
+	"memvar": "^m_(((b|c|us|s|n|ul|l|f|d|e|sz|map|p|arr|vec|list)[A-Z][a-zA-Z0-9_]*$)|([A-Z][a-zA-Z0-9_]*Obj$))",
+	"gvar": "^g_(((b|c|us|s|n|ul|l|f|d|e|sz|map|p|arr|vec|list)[A-Z][a-zA-Z0-9_]*$)|([A-Z][a-zA-Z0-9_]*Obj$))",
+	"class": "^[A-Z][a-zA-Z]*",
+	"function": "^[_]{0,1}[A-Z][a-zA-Z]*",
+	"function_whitelist": [
+		"operator()",
+		"main",
+		"operator>",
+		"operator<"
+	],
+	"exclude": [
+		"^sources/reedsolomon/.*",
+		"^sources/kcp/.*"
+	]
+}

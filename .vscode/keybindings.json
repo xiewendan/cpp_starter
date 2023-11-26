@@ -1,0 +1,20 @@
+[
+    {
+        "key": "ctrl+s",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "markdown.extension.toc.addSecNumbers",
+                "workbench.action.files.save"
+            ]
+        }
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "cd ${workspaceFolder} && sh check_select.sh ${file}\n"
+        },
+        "when": "editorTextFocus && !inDebugRepl && !terminalFocus && editorLangId==cpp"
+    }
+]
