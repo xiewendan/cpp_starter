@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# py cache
+__pycache__

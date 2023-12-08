@@ -27,6 +27,10 @@ initialize a cpp project with google format, naming check and cpplint check.
   ~~~
   apt install python3
   ~~~
+  ~~~
+  apt install python
+  ~~~
+  > python is use to run tools/cpplint.py
 * cppcheck 
   ~~~
   apt install cppcheck
